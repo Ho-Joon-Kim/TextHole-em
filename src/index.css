@@ -1,0 +1,26 @@
+body {
+  background-color: #000000;
+  margin: 0;
+  font-family:"Modern DOS 8x14";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family:"Modern DOS 8x14";
+  src:url("ModernDOS8x14.eot?") format("eot"),url("ModernDOS8x14.woff") format("woff"),url("ModernDOS8x14.ttf") format("truetype"),url("ModernDOS8x14.svg#ModernDOS8x14") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
