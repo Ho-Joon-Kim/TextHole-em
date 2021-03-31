@@ -4,8 +4,8 @@ import Typing from 'react-typing-animation';
 function App() {
   return (
     <div className="App-header">
-      <Typing>
       <div className="main">
+      <Typing>
       <Typing.Speed ms={70} />
       <strong>Welcome to Texas Hold'em</strong><br/>
       <Typing.Speed ms={10} />
@@ -15,17 +15,20 @@ function App() {
       site by TitanV<br/>
       program by Chorong<br/>
       <br/>
-      C:\>I want a DOWNLOAD<br/>
+      C:\>I want a <a href = "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ada987a5-b7a9-41f1-85cd-549c46ef7cfe/Text_Holdem.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210331T095221Z&X-Amz-Expires=86400&X-Amz-Signature=5f02ab13bb6703186ca4bc89f1a351a1cdefed7caf28d3cc0aa9e68f1cb7c205&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%20%3D%22Text%2520Hold%27em.zip%22" target="_self">DOWNLOAD</a><br/>
       "Thanks for playing my game"<br/>
       <br/>
       C:\>How to use this program????<br/>
-      Just see this LINK<br/>
+      Just see this <a href = "https://www.notion.so/019648c0e61e44a7965df332f67b34c6" target="_blank" rel="noreferrer">LINK</a><br/>
       <br/>
       <br/>
+      </Typing>
+      <Typing>
+      <Typing.Delay ms={6100} />
       <Typing.Speed ms={1} />
       MIT License<br/>
       <br/>
-      Copyright (c) 2021 Console Hold'em<br/>
+      Copyright (c) 2021 Text Hold'em<br/>
       Permission is hereby granted, free of charge, to any person obtaining a copy
       of this software and associated documentation files (the "Software"), to deal
       in the Software without restriction, including without limitation the rights
@@ -43,8 +46,8 @@ function App() {
       LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
       OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
       SOFTWARE.
-      </div>
       </Typing>
+      </div>
     </div>
   );
 }
